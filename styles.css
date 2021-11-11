@@ -1,6 +1,6 @@
 body
 {
-    background: pink;
+    background: lightgrey;
     font-family:Arial, Helvectica, sans-serif;
 }
 
@@ -10,16 +10,28 @@ body
     padding:10px;
     margin:10px;
     background: lightgray;
+    border-radius:5px;
 }
 
 .assignment img
 {
     width:200px;
     padding:10px;
+    border:4px solid white;
+}
+
+.assignment img:hover
+{
+   border:4px dashed blue;
 }
 
 h1
 {
-    color:darkorchid;
+    color:darkslategrey;
     text-align:center;
+}
+
+h1:hover
+{
+    color:blue;
 }
