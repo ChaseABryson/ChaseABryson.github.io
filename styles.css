@@ -4,7 +4,7 @@ body
     font-family:Arial, Helvectica, sans-serif;
 }
 
-.assignment
+.assignments
 {
     display:flex;
     flex-wrap:wrap;
